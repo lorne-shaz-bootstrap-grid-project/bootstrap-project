@@ -1,5 +1,4 @@
-/* Styles associated with NAV */
-* {
+body {
     background-color: #e7e7e7;
     font-family: 'Abel', sans-serif;
 }
@@ -23,9 +22,8 @@ nav > ul {
     width: 100%;
     margin:0;
     padding:0;
-    text-align: center;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     top: 5em;
     opacity: 0.5;
 }
@@ -47,4 +45,17 @@ nav > ul {
 
 .biggerText {
     font-size: 1.75em;
+}
+main {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 6em;
+}
+main div:nth-of-type(1) {
+    font-size: 4em;
+}
+
+main div:nth-of-type(2) {
+    font-size: 2.5em;
 }
