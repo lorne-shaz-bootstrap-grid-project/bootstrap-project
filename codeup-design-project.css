@@ -1,6 +1,6 @@
 /* Styles associated with NAV */
-body {
-    background-color: gray;
+* {
+    background-color: #e7e7e7;
     font-family: 'Abel', sans-serif;
 }
 
@@ -75,20 +75,26 @@ nav > ul {
 /*}*/
 
 
-/*@media (min-width: 576px) {*/
+@media (min-width: 576px) {
 
-/*    .ml-auto-sm {*/
-/*        margin-left: auto;*/
-/*    }*/
+    .ml-auto-sm {
+        margin-left: auto;
+    }
+    .order-6 {
+        width: 100%;
+    }
+    .ul {
+        display: flex;
+    }
+    /*.logo {*/
+    /*    justify-content: center;*/
+    /*}*/
 
-/*    .order-6 {*/
-/*        width: 100%;*/
-/*    }*/
-
-/*}*/
+}
 
 
 .bg-container {
+    z-index: 1;
     border-top: 55px solid #f0f0f0;
     background-color: #ffffff;
     height: 125px;
@@ -96,7 +102,6 @@ nav > ul {
     margin:0;
     padding:0;
     text-align: center;
-    z-index: 1;
     position: absolute;
     opacity: 1;
 
@@ -104,8 +109,11 @@ nav > ul {
 
 
 .logo {
-    height: 105px;
-    width: 105px;
+    height: 200px;
+    width: 200px;
+    display: block;
+
+
 }
 
 .logo-text {
