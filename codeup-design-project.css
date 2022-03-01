@@ -62,3 +62,42 @@ main div:nth-of-type(2) {
 main ul {
     list-style-type: none;
 }
+
+.circles {
+    border: solid white 10px;
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    height: 250px;
+    width: 250px;
+    margin: .25em;
+    padding-top: 85px;
+}
+
+#circleContainer{
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 5em auto;
+    justify-content: center;
+}
+
+main ul li:nth-of-type(1) {
+    background-color: #e6563b;
+}
+
+main ul li:nth-of-type(2) {
+    background-color: #dea03d;
+}
+
+main ul li:nth-of-type(3) {
+    background-color: #7cb06c;
+}
+
+main ul li:nth-of-type(4) {
+    background-color: #00aba9;
+}
+
+
